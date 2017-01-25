@@ -1,0 +1,1 @@
+module.exports = fat = (a) => (!a) ? 1 : a * fat(a-1);
